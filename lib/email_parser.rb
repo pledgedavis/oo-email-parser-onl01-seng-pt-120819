@@ -5,7 +5,7 @@
 class EmailAddressParser
   attr_accessor :csv_emails , :space_delimited_emails
   
-  def initialize( csv_emails, space_delimited_emails)
+  def initialize( csv_emails)
   @csv_emails = csv_emails
   @space_delimited_emails = space_delimited_emails
   end
